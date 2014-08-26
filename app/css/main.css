@@ -38,6 +38,22 @@ body {
 }
 
 @media (min-width: 768px) {
-.navlist-topright a {
-    display: block;
+	.navlist-topright a {
+		display: block;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu a {
+		width: 100%;
+	}
+	.menu li {
+		margin-right: 2.5em;
+	}
+	.header-bg-right {
+		display: none;
+	}
+	.uni-logo {
+		margin-left: 8em;
+	}
 }
