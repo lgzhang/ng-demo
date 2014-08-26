@@ -1,0 +1,54 @@
+.loading {
+    overflow: hidden;
+    background: url(../images/load.gif) #FF6100 repeat-y right;
+    height: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    left: 0;
+    font-size: 0;
+    -webkit-animation:progressing 2s ease-out;
+    -moz-animation:progressing 2s ease-out;
+}
+
+@-moz-keyframes progressing {
+  0% {
+    width:0px;
+  }
+  100% {
+    width:100%;
+  }
+}
+@-webkit-keyframes progressing {
+  0% {
+    width:0px;
+  }
+  100% {
+    width:100%;
+  }
+}
+.navbar-toggle {
+  margin-top: 2em;
+}
+.icon-bar {
+  background: white;
+}
+
+.logo {
+  background: url(../images/logo.png) no-repeat center;
+  height: 6em;
+  width: 12em;
+  float:left;
+}
+
+.home {
+  float:left;
+  font-size: 4em;
+  height: 3em;
+  line-height: 3em;
+}
+
+.menu {
+  padding-top: 1em;
+  padding-left: 1em;
+}
