@@ -7,8 +7,6 @@ angular.module('ng-demo').directive('appContainer', function() {
     controller: function(){
 
     },
-
-    
     controllerAs: 'container'
 
   }
